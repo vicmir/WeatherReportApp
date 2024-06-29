@@ -1,6 +1,6 @@
 # WeatherReportApp
 
-The KICC Weather Report project is a cloud-based application designed to provide users with real-time weather updates and historical weather data. Deployed on Microsoft Azure, this project leverages several cloud services to offer a seamless and efficient weather reporting tool. Users can access current weather information for their chosen locations via a user-friendly web interface and store historical weather data for future reference.
+The Weather Report project is a cloud-based application designed to provide users with real-time weather updates and historical weather data. Deployed on Microsoft Azure, this project leverages several cloud services to offer a seamless and efficient weather reporting tool. Users can access current weather information for their chosen locations via a user-friendly web interface and store historical weather data for future reference.
 
 ## Features
 
@@ -77,6 +77,7 @@ cd WeatherReportApp
 
 3. Set up the frontend:
 - Open the HTML file in a web browser to view the interface.
+
 4. Set up the backend functions on Azure:
 - Follow the steps outlined in the report to create and deploy Azure Functions.
 
