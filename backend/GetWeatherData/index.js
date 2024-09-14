@@ -3,6 +3,7 @@ const { CosmosClient } = require('@azure/cosmos');
 
 const cosmosEndpoint = process.env.COSMOS_DB_ENDPOINT;
 const cosmosKey = process.env.COSMOS_DB_KEY;
+const openWeatherApiKey = process.env.OPENWEATHER_API_KEY;
 
 const client = new CosmosClient({ endpoint: cosmosEndpoint, key: cosmosKey });
 const databaseId = 'weather-report-db';
@@ -10,8 +11,7 @@ const containerId = 'WeatherData';
 
 module.exports = async function (context, req) {
     const location = req.query.location || (req.body && req.body.location);
-    const apiKey = '7d271418df0461fcd2974dc959c7dda4';
-    const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${apiKey}&units=metric`;
+    const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${openWeatherApiKey}&units=metric`;
 
     try {
         const response = await axios.get(url);
