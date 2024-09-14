@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 function fetchWeatherData(location) {
-    const url = `https://weather-report-func.azurewebsites.net/api/GetWeatherData?location=${encodeURIComponent(location)}`;
+    const url = `/api/GetWeatherData?location=${encodeURIComponent(location)}`;
     fetch(url)
         .then(response => {
             if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
@@ -23,7 +23,7 @@ function fetchWeatherData(location) {
 }
 
 function fetchWeatherHistory(location) {
-    const azureFunctionUrl = `https://weather-report-func.azurewebsites.net/api/GetWeatherHistory?location=${encodeURIComponent(location)}`;
+    const azureFunctionUrl = `/api/GetWeatherHistory?location=${encodeURIComponent(location)}`;
 
     fetch(azureFunctionUrl)
     .then(response => {
