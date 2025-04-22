@@ -2,13 +2,13 @@
 
 The Weather Report project is a simple cloud-based application designed to provide users with real-time weather updates and historical weather data. Deployed on Microsoft Azure, this project leverages several cloud services to offer a seamless and efficient weather reporting tool. Users can access current weather information for their chosen locations via a user-friendly web interface and store historical weather data for future reference.
 
-## Features
+## 📌 Features
 
 - **Real-Time Weather Updates:** Retrieve and display current weather information for any location.
 - **Historical Weather Data:** Store and access previously retrieved weather data.
 - **Cloud-Based Infrastructure:** Utilizes Azure services for scalable and reliable performance.
 
-## Project Structure
+## 📌 Project Structure
 
 The project is organized into the following components:
 
@@ -17,7 +17,7 @@ The project is organized into the following components:
 3. **Database:** Azure Cosmos DB for storing and retrieving historical weather data.
 4. **API Integration:** Connection with the OpenWeatherMap API to fetch real-time weather data.
 
-## Implementation
+## 📌 Implementation
 **Frontend Development:**
 
 The web interface allows users to input a location and view the current weather and forecasts. It is developed using:
@@ -48,14 +48,14 @@ Connecting the web interface with Azure functions and the database to fetch weat
 1. Connecting the JS file (web interface) with Azure (functions and database).
 2. Testing the integration to ensure seamless data flow.
 
-## Tools and Technologies
+## 📌 Tools and Technologies
 - **Microsoft Azure:** Cloud platform for hosting the application, utilizing services such as Azure Functions, Azure API Management, and Azure Cosmos DB.
 - **OpenWeatherMap API:** Source for real-time weather data.
 - **HTML/CSS/JavaScript:** For creating the web interface.
 - **Node.js:** For backend functions facilitating asynchronous API communication.
 - **Data Structures:** JSON for data handling and responses between the API server functions and the frontend.
 
-## Getting Started
+## 📌 Getting Started
 **Prerequisites:**
 
 - Azure account
@@ -81,12 +81,12 @@ cd WeatherReportApp
 4. Set up the backend functions on Azure:
 - Follow the steps outlined in the report to create and deploy Azure Functions.
 
-## Usage
+## 📌 Usage
 1. Access the Web Interface: Open the HTML file in a web browser.
 2. Input a Location: Enter the desired location to retrieve current weather information.
 3. View Historical Data: Access previously retrieved weather data stored in Azure Cosmos DB.
 
-## Screenshots
+## 📌 Screenshots
 
 ![1](https://github.com/user-attachments/assets/b4ca0d2d-6a76-46bf-9702-db33cfb39575)
 
@@ -96,6 +96,6 @@ cd WeatherReportApp
 
 ![4](https://github.com/user-attachments/assets/dd51c481-a1b9-4a2a-a339-6ee7b0f0af8b)
 
-## Live Demo
+## 📌 Live Demo
 
 ![clideo_editor_56cd4c2374884a9b9258628091299af0](https://github.com/vicmir/WeatherReportApp/assets/79836020/3bb7d19d-730e-4674-9e33-c6598d09483f)
