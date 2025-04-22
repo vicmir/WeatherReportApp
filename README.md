@@ -29,8 +29,8 @@ The web interface allows users to input a location and view the current weather 
 Serverless functions handle API requests and data processing. Steps include:
 
 1. Register at Azure and OpenWeather.
-2. Create a function on Azure to retrieve data from OpenWeather using its API key (the code is provided in 'backend/GetWeatherData').
-3. Create another function to retrieve historical weather data from Azure Cosmos DB and send it to the frontend (the code is provided in 'backend/GetWeatherHistory').
+2. Create a function on Azure to retrieve data from OpenWeather using its API key (the code is provided in ```backend/GetWeatherData```).
+3. Create another function to retrieve historical weather data from Azure Cosmos DB and send it to the frontend (the code is provided in ```backend/GetWeatherHistory```).
 4. Testing of functions to ensure correct data retrieval and display.
 
 **Database Integration:**
