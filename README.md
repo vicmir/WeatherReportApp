@@ -90,7 +90,7 @@ cd WeatherReportApp
 
 ![1](https://github.com/user-attachments/assets/b4ca0d2d-6a76-46bf-9702-db33cfb39575)
 
-![2](https://github.com/user-attachments/assets/046e6cb4-515d-441c-869f-537ccb44c6d5)
+![5](https://github.com/user-attachments/assets/31cfb27e-625e-438a-adcf-980b0e84fe78)
 
 ![3](https://github.com/user-attachments/assets/7682ee8f-5f14-4f62-b163-9f2506ea5693)
 
