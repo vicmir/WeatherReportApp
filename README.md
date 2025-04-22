@@ -88,6 +88,14 @@ cd WeatherReportApp
 
 ## Screenshots
 
+![1](https://github.com/user-attachments/assets/b4ca0d2d-6a76-46bf-9702-db33cfb39575)
+
+![2](https://github.com/user-attachments/assets/046e6cb4-515d-441c-869f-537ccb44c6d5)
+
+![3](https://github.com/user-attachments/assets/7682ee8f-5f14-4f62-b163-9f2506ea5693)
+
+![4](https://github.com/user-attachments/assets/dd51c481-a1b9-4a2a-a339-6ee7b0f0af8b)
+
 ## Live Demo
 
 ![clideo_editor_56cd4c2374884a9b9258628091299af0](https://github.com/vicmir/WeatherReportApp/assets/79836020/3bb7d19d-730e-4674-9e33-c6598d09483f)
