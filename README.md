@@ -18,13 +18,13 @@ The project is organized into the following components:
 4. **API Integration:** Connection with the OpenWeatherMap API to fetch real-time weather data.
 
 ## 📌 Implementation
-**Frontend Development:**
+** 📍 Frontend Development:**
 
 The web interface allows users to input a location and view the current weather and forecasts. It is developed using:
 
 - HTML/CSS/JavaScript via Visual Studio
 
-**Backend Implementation:**
+** 📍 Backend Implementation:**
 
 Serverless functions handle API requests and data processing. Steps include:
 
@@ -33,7 +33,7 @@ Serverless functions handle API requests and data processing. Steps include:
 3. Create another function to retrieve historical weather data from Azure Cosmos DB and send it to the frontend (the code is provided in ```backend/GetWeatherHistory```).
 4. Testing of functions to ensure correct data retrieval and display.
 
-**Database Integration:**
+** 📍 Database Integration:**
 
 Utilizing Azure Cosmos DB for storing and retrieving historical weather data involves:
 
@@ -41,7 +41,7 @@ Utilizing Azure Cosmos DB for storing and retrieving historical weather data inv
 2. Designing a schema that supports quick access and search based on timestamps and locations.
 3. Testing the database functions to ensure efficient data handling.
 
-**API Integration:**
+** 📍 API Integration:**
 
 Connecting the web interface with Azure functions and the database to fetch weather data involves:
 
@@ -56,13 +56,13 @@ Connecting the web interface with Azure functions and the database to fetch weat
 - **Data Structures:** JSON for data handling and responses between the API server functions and the frontend.
 
 ## 📌 Getting Started
-**Prerequisites:**
+** 📍 Prerequisites:**
 
 - Azure account
 - OpenWeatherMap API key
 - Basic knowledge of web development (HTML, CSS, JavaScript)
 
-**Installation:**
+** 📍 Installation:**
 
 1. Clone the repository:
 
