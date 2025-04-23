@@ -22,7 +22,7 @@ The project is organized into the following components:
 
 The web interface allows users to input a location and view the current weather and forecasts. It is developed using:
 
-- HTML/CSS/JavaScript via Visual Studio
+- HTML/CSS/JavaScript via Visual Studio.
 
  📍 **Backend Implementation:**
 
@@ -61,7 +61,7 @@ Connecting the web interface with Azure functions and the database to fetch weat
  📍 **Prerequisites:**
 
 - Azure and OpenWeatherMap accounts.
-- OpenWeatherMap API key.
+- OpenWeatherMap and Azure components API keys.
 
  📍 **Installation:**
 
