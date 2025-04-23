@@ -42,15 +42,14 @@ Serverless functions handle API requests and data processing. Steps include:
 4. Creating a function in function app to retrieve data from OpenWeather using its API key (the code is provided at ```backend/GetWeatherData```).
 
 ![image](https://github.com/user-attachments/assets/1f220aee-2303-4785-90fd-f2789fc19aa2)
+![image](https://github.com/user-attachments/assets/64942dfb-dc1c-4f98-a9f3-effa5422ae6d)
 
 5. Creating another function in function app to retrieve historical weather data from Azure Cosmos DB and send it to the frontend (the code is provided at ```backend/GetWeatherHistory```).
 
 ![image](https://github.com/user-attachments/assets/fa06f8ab-8fbc-44bb-8360-d9b6ca3f4ca9)
+![image](https://github.com/user-attachments/assets/8ec15009-090e-4f4c-812a-d1ab39727506)
 
 6. Testing of functions to ensure correct data retrieval and display.
-
-![image](https://github.com/user-attachments/assets/64942dfb-dc1c-4f98-a9f3-effa5422ae6d)
-![image](https://github.com/user-attachments/assets/8ec15009-090e-4f4c-812a-d1ab39727506)
 
  📍 **Database Integration:**
 
