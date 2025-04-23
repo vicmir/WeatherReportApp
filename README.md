@@ -24,14 +24,33 @@ The web interface allows users to input a location and view the current weather 
 
 - HTML/CSS/JavaScript via Visual Studio
 
+![image](https://github.com/user-attachments/assets/8fbf3631-5a2e-4453-8882-f6d38a23dccf)
+
  📍 **Backend Implementation:**
 
 Serverless functions handle API requests and data processing. Steps include:
 
-1. Register at Azure and OpenWeather.
-2. Create a function on Azure to retrieve data from OpenWeather using its API key (the code is provided in ```backend/GetWeatherData```).
-3. Create another function to retrieve historical weather data from Azure Cosmos DB and send it to the frontend (the code is provided in ```backend/GetWeatherHistory```).
-4. Testing of functions to ensure correct data retrieval and display.
+1. Registering at Azure and OpenWeather.
+2. Creating a resource group in Azure.
+
+![photo_2025-04-23_16-59-56](https://github.com/user-attachments/assets/c128ae12-4745-491f-9533-1f30d6ce1a80)
+
+3. Creating a function app in a previously created resource group in Azure.
+
+![photo_2025-04-23_17-00-18](https://github.com/user-attachments/assets/20171ed9-a445-44ba-9f59-11a763bf4e82)
+
+4. Creating a function in function app to retrieve data from OpenWeather using its API key (the code is provided at ```backend/GetWeatherData```).
+
+![image](https://github.com/user-attachments/assets/1f220aee-2303-4785-90fd-f2789fc19aa2)
+
+5. Creating another function in function app to retrieve historical weather data from Azure Cosmos DB and send it to the frontend (the code is provided at ```backend/GetWeatherHistory```).
+
+![image](https://github.com/user-attachments/assets/fa06f8ab-8fbc-44bb-8360-d9b6ca3f4ca9)
+
+6. Testing of functions to ensure correct data retrieval and display.
+
+![image](https://github.com/user-attachments/assets/64942dfb-dc1c-4f98-a9f3-effa5422ae6d)
+![image](https://github.com/user-attachments/assets/8ec15009-090e-4f4c-812a-d1ab39727506)
 
  📍 **Database Integration:**
 
@@ -40,6 +59,8 @@ Utilizing Azure Cosmos DB for storing and retrieving historical weather data inv
 1. Creating a database and containers for storing data.
 2. Designing a schema that supports quick access and search based on timestamps and locations.
 3. Testing the database functions to ensure efficient data handling.
+
+![photo_2025-04-23_17-02-36](https://github.com/user-attachments/assets/f258488f-69e2-4019-a151-2f23b9853f82)
 
  📍 **API Integration:**
 
@@ -58,9 +79,8 @@ Connecting the web interface with Azure functions and the database to fetch weat
 ## 📌 Getting Started
  📍 **Prerequisites:**
 
-- Azure account
-- OpenWeatherMap API key
-- Basic knowledge of web development (HTML, CSS, JavaScript)
+- Azure and OpenWeatherMap accounts.
+- OpenWeatherMap API key.
 
  📍 **Installation:**
 
@@ -95,6 +115,15 @@ cd WeatherReportApp
 ![3](https://github.com/user-attachments/assets/7682ee8f-5f14-4f62-b163-9f2506ea5693)
 
 ![4](https://github.com/user-attachments/assets/dd51c481-a1b9-4a2a-a339-6ee7b0f0af8b)
+
+***
+![photo_2025-04-23_17-07-25](https://github.com/user-attachments/assets/f63bbe00-c000-4733-a16c-b769735f2645)
+
+![photo_2025-04-23_17-07-55](https://github.com/user-attachments/assets/0c258db7-74d5-4d5c-a9a6-6e6bafd0c645)
+
+![photo_2025-04-23_17-08-17](https://github.com/user-attachments/assets/00a10e98-063b-4163-b956-1144be4a496b)
+
+![photo_2025-04-23_17-08-37](https://github.com/user-attachments/assets/e2cec566-0138-4d9d-bc1f-7df9257bfb85)
 
 ## 📌 Live Demo
 
