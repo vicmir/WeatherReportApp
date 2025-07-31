@@ -105,6 +105,8 @@ cd WeatherReportApp
 
 ## 📌 Credits
 
+Here're the credits to **OpenWeatherMap API** used in development:
+
 <p align="center">
  <a href="https://openweathermap.org/" title="OpenWeatherMap API"> <img src="https://img.shields.io/badge/API-OpenWeatherMap-F05023?style=for-the-badge&logo=openweathermap&logoColor=white" alt="OpenWeatherMap API"> </a>
 </p>
