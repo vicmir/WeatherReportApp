@@ -1,4 +1,6 @@
-# 🌤 Weather Report App
+<h1 align="center">🌤 Weather Report App</h1>
+
+<p align="center"> <!-- Frontend --> <img src="https://custom-icon-badges.demolab.com/badge/HTML%2F CSS %2F JS-F7DF1E?logo=javascript&logoColor=000000&style=for-the-badge" alt="HTML/CSS/JS"> <!-- Backend / Cloud --> <img src="https://custom-icon-badges.demolab.com/badge/Microsoft%20Azure-0089D6?logo=msazure&logoColor=white&style=for-the-badge" alt="Microsoft Azure"> <img src="https://custom-icon-badges.demolab.com/badge/Azure%20Functions-0078D7?logo=azure-functions&logoColor=white&style=for-the-badge" alt="Azure Functions"> <img src="https://custom-icon-badges.demolab.com/badge/Microsoft%20Azure-0089D6?logo=msazure&logoColor=white&style=for-the-badge" alt="Azure Cosmos DB"> <!-- Runtime --> <img src="https://custom-icon-badges.demolab.com/badge/Node.js-339933?logo=nodejs&logoColor=white&style=for-the-badge" alt="Node.js"> <!-- Data Format --> <img src="https://custom-icon-badges.demolab.com/badge/JSON-000000?logo=json&logoColor=white&style=for-the-badge" alt="JSON"> </p>
 
 The Weather Report project is a simple cloud-based application designed to provide users with real-time weather updates and historical weather data. Deployed on Microsoft Azure, this project leverages several cloud services to offer a seamless and efficient weather reporting tool. Users can access current weather information for their chosen locations via a user-friendly web interface and store historical weather data for future reference.
 
@@ -100,3 +102,9 @@ cd WeatherReportApp
 ## 📌 Live Demo
 
 ![weatherreportappgif](https://github.com/user-attachments/assets/05c2fa2d-ccca-4da6-ac26-b4ad490b9c7b)
+
+## 📌 Credits
+
+<p align="center">
+ <a href="https://openweathermap.org/" title="OpenWeatherMap API"> <img src="https://img.shields.io/badge/API-OpenWeatherMap-F05023?style=for-the-badge&logo=openweathermap&logoColor=white" alt="OpenWeatherMap API"> </a>
+</p>
